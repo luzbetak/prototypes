@@ -1,7 +1,3 @@
-# Combined Dataset Preparation
-
-This project combines data from three CSV files (`fake-cars.csv`, `fake-customers.csv`, and `fake-households.csv`) into a single, cleaned dataset for analysis and model training.
-
 ## Project Overview
 
 The goal of this project is to merge data from three distinct CSV files into one comprehensive dataset. The combined dataset will be cleaned and prepared for further analysis and machine learning model training.
@@ -22,7 +18,7 @@ The goal of this project is to merge data from three distinct CSV files into one
 1. **Load CSV Files**: Each of the three CSV files is loaded into a separate Pandas DataFrame.
 
 2. **Merge DataFrames**:
-   - The `HOUSEHOLDS.csv` file is merged with `CUSTOMERS.csv` on the `CUST_ID` key.
+   - The `fake-households.csv` file is merged with `fake-customers.csv` on the `CUST_ID` key.
    - The resulting DataFrame is then merged with the `CARS.csv` file on the `CAR_ID` key.
 
 3. **Clean the Data**:
@@ -33,24 +29,4 @@ The goal of this project is to merge data from three distinct CSV files into one
 4. **Save the Combined Data**:
    - The final cleaned dataset is saved as `combined_dataset.csv`.
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.x
-- Pandas library
-
-### Running the Script
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    ```
-   
-2. Navigate to the project directory:
-    ```bash
-    cd your-repository-name
-    ```
-
-3. Place 
 
